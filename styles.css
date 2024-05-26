@@ -11,7 +11,6 @@ header {
   padding: 20px;
   text-align: center;
 }
-
 header img {
   border-radius: 50%;
   width: 150px;
@@ -20,34 +19,36 @@ header img {
 }
 
 main {
-  background-color: #090000; /* Black background */
-  color: #006400; /* Dark green text */
+  background-color: #090000;
+  color: #006400;
   padding: 20px;
 }
 
+h1,
+h2 {
+  background-color: #090000;
+  color: #006400;
+}
+
 h1 {
-  background-color: #090000; /* Black background */
-  color: #006400; /* Dark green text */
   margin-bottom: 20px;
 }
 
 h2 {
-  background-color: #090000; /* Black background */
-  color: #006400; /* Dark green text */
   margin-bottom: 10px;
 }
 
 p {
-  background-color: #090000; /* Black background */
-  color: #006400; /* Dark green text */
+  background-color: #090000;
+  color: #006400;
   padding: 10px;
   font-weight: bold;
 }
 
 ul {
   font-family: "Courier New";
-  background-color: #090000; /* Black background */
-  color: #006400; /* Dark green text */
+  background-color: #090000;
+  color: #006400;
   list-style-type: none;
   padding: 0;
 }
@@ -57,8 +58,8 @@ footer {
   color: #006400;
   text-align: center;
   padding: 3px;
-  position: auto;
+  position: fixed;
   bottom: 0;
   width: 100%;
   margin-top: auto;
-}
+}/*# sourceMappingURL=bio.css.map */

@@ -1,0 +1,70 @@
+$font-family: "Courier New";
+$bg-color: #090000;
+$text-color: #006400;
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 20px;
+  text-align: center;
+
+  img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+}
+
+main {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 10px;
+  font-weight: bold;
+}
+
+ul {
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $text-color;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: $bg-color;
+  color: $text-color;
+  text-align: center;
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
