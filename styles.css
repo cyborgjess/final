@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  position: relative;
 }
 
 header {
@@ -13,9 +14,35 @@ header {
 }
 header img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   margin-top: 10px;
+}
+
+ul {
+  font-family: "Courier New";
+  background-color: #090000;
+  color: #006400;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+}
+ul li {
+  font-family: "Courier New";
+  background-color: #090000;
+  color: #006400;
+  padding: 5px 0;
+}
+ul li a {
+  color: green;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: lightgreen;
 }
 
 main {
@@ -26,31 +53,26 @@ main {
 
 h1,
 h2 {
+  font-size: 30px;
   background-color: #090000;
   color: #006400;
 }
 
 h1 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
 h2 {
+  text-align: center;
   margin-bottom: 10px;
 }
 
 p {
+  font-weight: bold;
   background-color: #090000;
   color: #006400;
   padding: 10px;
-  font-weight: bold;
-}
-
-ul {
-  font-family: "Courier New";
-  background-color: #090000;
-  color: #006400;
-  list-style-type: none;
-  padding: 0;
 }
 
 footer {
@@ -62,4 +84,4 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: auto;
-}/*# sourceMappingURL=bio.css.map */
+}/*# sourceMappingURL=styles.css.map */

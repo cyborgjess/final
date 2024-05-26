@@ -1,12 +1,15 @@
 $font-family: "Courier New";
 $bg-color: #090000;
 $text-color: #006400;
+$link-color: green;
+$link-hover-color: lightgreen;
 
 body {
   font-family: $font-family;
   margin: 0;
   padding: 0;
   height: 100vh;
+  position: relative;
 }
 
 header {
@@ -17,9 +20,38 @@ header {
 
   img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     margin-top: 10px;
+  }
+}
+
+ul {
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $text-color;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+
+  li {
+    font-family: $font-family;
+    background-color: $bg-color;
+    color: $text-color;
+    padding: 5px 0;
+
+    a {
+      color: $link-color; // Change hyperlink text color
+      text-decoration: none; // Remove underline
+
+      &:hover {
+        color: $link-hover-color; // Change color on hover
+      }
+    }
   }
 }
 
@@ -31,31 +63,26 @@ main {
 
 h1,
 h2 {
+  font-size: 30px;
   background-color: $bg-color;
   color: $text-color;
 }
 
 h1 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
 h2 {
+  text-align: center;
   margin-bottom: 10px;
 }
 
 p {
+  font-weight: bold;
   background-color: $bg-color;
   color: $text-color;
   padding: 10px;
-  font-weight: bold;
-}
-
-ul {
-  font-family: $font-family;
-  background-color: $bg-color;
-  color: $text-color;
-  list-style-type: none;
-  padding: 0;
 }
 
 footer {
