@@ -66,6 +66,10 @@ h2 {
   font-size: 30px;
   background-color: $bg-color;
   color: $text-color;
+
+  &:hover {
+    color: $link-hover-color; // Change color on hover
+  }
 }
 
 h1 {
@@ -75,12 +79,12 @@ h1 {
 
 h2 {
   text-align: center;
+
   margin-bottom: 10px;
 }
-
 p {
-  font-weight: bold;
   background-color: $bg-color;
+  font-weight: bold;
   color: $text-color;
   padding: 10px;
 }
@@ -94,4 +98,5 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: auto;
+  font-size: 12px;
 }

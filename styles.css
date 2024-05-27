@@ -37,12 +37,10 @@ ul li {
   color: #006400;
   padding: 5px 0;
 }
-
 ul li a {
   color: green;
   text-decoration: none;
 }
-
 ul li a:hover {
   color: lightgreen;
 }
@@ -59,6 +57,10 @@ h2 {
   background-color: #090000;
   color: #006400;
 }
+h1:hover,
+h2:hover {
+  color: lightgreen;
+}
 
 h1 {
   text-align: center;
@@ -71,8 +73,8 @@ h2 {
 }
 
 p {
-  font-weight: bold;
   background-color: #090000;
+  font-weight: bold;
   color: #006400;
   padding: 10px;
 }
@@ -86,4 +88,5 @@ footer {
   bottom: 0;
   width: 100%;
   margin-top: auto;
-} /*# sourceMappingURL=styles.css.map */
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
